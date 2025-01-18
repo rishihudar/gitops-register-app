@@ -1,4 +1,4 @@
-S-pipeline {
+pipeline {
     agent { label 'vinod' }
     environment {
               APP_NAME = "register-app-pipeline"
